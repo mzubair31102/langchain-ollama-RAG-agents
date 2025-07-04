@@ -1,3 +1,4 @@
+## Github Guide 
 ### Clone repo
 git clone https://github.com/mzubair31102/langchain-ollama-RAG-agents        # Download code to your machine
 
@@ -18,3 +19,5 @@ git push                    # Upload commits to GitHub
 ###  (Optional) Create and push new branch
 git checkout -b feature-x  # Create & switch to new branch
 git push -u origin feature-x
+
+##
