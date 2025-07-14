@@ -147,6 +147,20 @@ langchain_local_chat_test.py
 ```
 ### What’s Happening?
 
+```bash
+from langchain_ollama import ChatOllama
+
+base_url = "http://localhost:11434"
+model = "llama3.2:latest"  # Correct model name from your local list
+
+llm = ChatOllama(base_url=base_url, model=model)
+
+question = "Hi! How are you?"
+response = llm.invoke(question)
+print(response.content)
+
+```
+
 - ChatOllama(...): Connects your Python code to the locally running Ollama server.
 - llm.invoke(...): Sends your question to the AI model.
 - response.content: Contains the AI's reply (just like ChatGPT's response).

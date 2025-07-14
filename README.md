@@ -20,4 +20,6 @@ git push                    # Upload commits to GitHub
 git checkout -b feature-x  # Create & switch to new branch
 git push -u origin feature-x
 
-##
+## Activate the virtual environment
+
+venv\Scripts\activate
